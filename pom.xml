@@ -31,7 +31,11 @@
       <artifactId>truffle-api</artifactId>
       <version>${graalvm.version}</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.graalvm.truffle</groupId>
+      <artifactId>truffle-dsl-processor</artifactId>
+      <version>${graalvm.version}</version>
+    </dependency>
 
     <!-- ===============[ Test Libs ]=============== -->
     <dependency>
